@@ -25,7 +25,7 @@ export default props => {
             <thead>
                 <tr>
                     <th>Descrição</th>
-                    <th>Ações</th>
+                    <th className="buttonsLayout">Ações</th>
                 </tr>
             </thead>
             <tbody>
