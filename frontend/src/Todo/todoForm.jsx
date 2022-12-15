@@ -11,7 +11,7 @@ export default props => (
             </Grid>
             <Grid numbers="12 3 2">
                 <Buttons classbtn="primary" icon="plus"
-                    onCLick={props.adicionarTarefa} />
+                    onClick={props.handleAdd} />
             </Grid>
         </div>
     </div>
